@@ -1,8 +1,8 @@
 import { Gitlab } from "@gitbeaker/node";
 
 const git = new Gitlab({
-  // host: process.env.GITLAB_HOST,
-  token: process.env.GITLAB_TOKEN,
+  // host: hostname,
+  token: GitLab Login Token,
 });
 
 export default git;
