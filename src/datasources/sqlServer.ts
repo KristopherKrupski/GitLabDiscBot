@@ -1,10 +1,10 @@
 import mssql from "mssql";
 
 const configuration: mssql.config = {
-  server: "localhost",
-  database: "discbot",
+  server: "", // Insert your mssql information here
+  database: "",
   user: "sa",
-  password: "Pass123!",
+  password: "",
   port: 1433,
   options: {
     trustServerCertificate: true,
