@@ -1,7 +1,5 @@
 const projectIDs = {
-  incompassapi: 5,
-  incompass: 17,
-  api: 27994658,
+  api: 1, // Input your gitlab project ID here
 };
 
 export default projectIDs;
